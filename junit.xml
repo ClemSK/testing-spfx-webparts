@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="11" failures="0" errors="0" time="6.81">
+  <testsuite name="Mission Service" errors="0" failures="0" skipped="0" timestamp="2022-04-29T13:42:28" time="3.259" tests="4">
+    <testcase classname="Mission Service getMissions returns multiple missions" name="Mission Service getMissions returns multiple missions" time="0.002">
+    </testcase>
+    <testcase classname="Mission Service getMission  get one mission" name="Mission Service getMission  get one mission" time="0">
+    </testcase>
+    <testcase classname="Mission Service getMission  get a specific mission" name="Mission Service getMission  get a specific mission" time="0">
+    </testcase>
+    <testcase classname="Mission Service getMission  no valid mission" name="Mission Service getMission  no valid mission" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2022-04-29T13:42:28" time="4.249" tests="3">
+    <testcase classname=" 1+1 should equal 2" name=" 1+1 should equal 2" time="0.001">
+    </testcase>
+    <testcase classname=" 2+2 should equal 2" name=" 2+2 should equal 2" time="0.001">
+    </testcase>
+    <testcase classname=" async example" name=" async example" time="1.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2022-04-29T13:42:28" time="6.346" tests="4">
+    <testcase classname=" add() return the correct result" name=" add() return the correct result" time="0.001">
+    </testcase>
+    <testcase classname=" addAsync() return the correct result" name=" addAsync() return the correct result" time="1.002">
+    </testcase>
+    <testcase classname=" addPromise() return correct result" name=" addPromise() return correct result" time="1.003">
+    </testcase>
+    <testcase classname=" addPromise() catch expected error" name=" addPromise() catch expected error" time="1.002">
+    </testcase>
+  </testsuite>
+</testsuites>

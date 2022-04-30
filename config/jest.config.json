@@ -1,0 +1,35 @@
+{
+  "collectCoverage": true,
+  "coverageDirectory": "<rootDir>/../temp/test",
+  "coverageReporters": ["json", "lcov", "text", "text-summary"],
+  "coverageThreshold": {
+    "global": {
+      "branches": 50,
+      "functions": 90,
+      "lines": 100,
+      "statements": 100
+    },
+    "./src/services/*.ts": {
+      "branches": 50,
+      "functions": 100,
+      "lines": 100,
+      "statements": 100
+    }
+  },
+  "moduleFileExtensions": ["ts", "tsx", "js", "json"],
+  "moduleNameMapper": {
+    "\\.(css|scss)$": "identity-obj-proxy",
+    "^resx-string/en-us.json": "<rootDir>/../node_modules/@microsoft/sp-core-library/lib/resx-string/en-us.json"
+  },
+  "reporters": [
+    "default",
+    ["jest-junit", { "outputDirectory": "./temp/test/junit.xml" }]
+  ],
+  "rootDir": "../src",
+  "testMatch": ["**/src/**/*.test.+(ts|tsx|js)"],
+  "transform": {
+    "^.+\\.(ts|tsx)$": "ts-jest"
+  },
+  "testURL": "http://localhost",
+  "verbose": true
+}

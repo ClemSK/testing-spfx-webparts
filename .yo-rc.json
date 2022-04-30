@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.14.0",
+    "libraryName": "cswp-appollo-viewer",
+    "libraryId": "40e300e2-4905-41a5-822c-56ed9abf3b53",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "cswp-appollo-viewer",
+    "solutionShortDescription": "cswp-appollo-viewer description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

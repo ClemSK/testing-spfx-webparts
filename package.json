@@ -1,0 +1,35 @@
+{
+  "name": "cswp-appollo-viewer",
+  "version": "0.0.1",
+  "private": true,
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "gulp bundle",
+    "clean": "gulp clean",
+    "test": "./node_modules/.bin/jest --config ./config/jest.config.json"
+  },
+  "dependencies": {
+    "@microsoft/sp-core-library": "1.14.0",
+    "@microsoft/sp-lodash-subset": "1.14.0",
+    "@microsoft/sp-office-ui-fabric-core": "1.14.0",
+    "@microsoft/sp-property-pane": "1.14.0",
+    "@microsoft/sp-webpart-base": "1.14.0",
+    "@types/react": "^16.8.0",
+    "@types/react-dom": "^16.8.0"
+  },
+  "devDependencies": {
+    "@microsoft/rush-stack-compiler-3.9": "0.4.47",
+    "@microsoft/sp-build-web": "1.14.0",
+    "@microsoft/sp-module-interfaces": "1.14.0",
+    "@microsoft/sp-tslint-rules": "1.14.0",
+    "@types/jest": "^27.4.1",
+    "@types/node": "^17.0.29",
+    "@types/webpack-env": "1.13.1",
+    "ajv": "^6.9.1",
+    "gulp": "~4.0.2",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^27.0.0",
+    "jest-junit": "^13.2.0",
+    "ts-jest": "27.1.4"
+  }
+}

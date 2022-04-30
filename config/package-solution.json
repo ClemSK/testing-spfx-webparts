@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "cswp-appollo-viewer-client-side-solution",
+    "id": "40e300e2-4905-41a5-822c-56ed9abf3b53",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.14.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "cswp-appollo-viewer description"
+      },
+      "longDescription": {
+        "default": "cswp-appollo-viewer description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "cswp-appollo-viewer Feature",
+        "description": "The feature that activates elements of the cswp-appollo-viewer solution.",
+        "id": "acfe3005-b810-4457-81ff-ee8ae3b0be7e",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/cswp-appollo-viewer.sppkg"
+  }
+}
